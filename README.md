@@ -1,0 +1,6 @@
+# Indian-Business-Ventures-Website
+This website is made with the help of the html css and javascript for the company Indian Business Ventures. It has animations, layers, Unique design and a appealing interface which makes it more attractive. While making this website it has been ensured that users attention will be grasped by giving the connected interface within website. 
+This website is covers a home page where the basic deatainling of the organization has been shown.The page is filled with the information of the company so that user can know about the company website. 
+The second page is about the contact information where the companies location has been shown and also provided a form link through which they can ask for queries regarding the organization.
+The third page is about the carrer section where the login and registration pages beeen decided and a brief desciption about why and how can they join the organization and can build their carrer with divine colors.
+The fourth and the last section is about the orgainzation how and what orzanization work upon. When the organization started etc. All the details of the compnay , its employees, working nature, its repo, its work culture and what's their future goals regarding the same.
