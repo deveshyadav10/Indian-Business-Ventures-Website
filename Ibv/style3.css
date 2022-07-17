@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container1{
+display: flex;
+flex-wrap: wrap;
+padding-top: 89px;
+
+}
+
+.container1 .box1 p{
+    margin: 10px 90px;
+    font-size: 1.2rem;
+}
+.box2{
+    width: 50%;
+    padding-top: 89px;
+    margin-left: 300px;
+   
+}
+
+
+.box1{
+    width: 50%;
+    margin-top: 29px;
+    margin-left: 300px;
+}
+
+.box1 img{
+    width: 678px;
+}
+
+
+#account{
+    padding:150px 0px;
+}
+
+.box{
+    width: 50%;
+    margin-left: 400px;
+    padding: 34px;
+    border-radius: 23px;
+    border: 2px solid rgb(231, 222, 222);
+}
+
+.box input{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        box-sizing: border-box;
+        background-color: lightblue;
+     
+}
+
+.box h2{
+    padding:30px 0px;
+    color:#12b8e1;
+    font-size: 2.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    background-color: #186294;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+/* Bordered form */
+.box2 form {
+    border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+ .box2 input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+  
+.navbar-container input[type="checkbox"] {
+  opacity: 0.01;
+  }
+
+
+/* 
+media queries */
+
+@media(max-width:500px)
+{
+    html{
+        font-size: 50%;
+    }
+    .box2
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    footer{
+flex-direction: column;
+text-align: center;
+    }
+
+    
+    .container1 img{
+      flex-direction: column;
+      width: 50%;
+    }
+
+    .box1{
+   margin: 0px;
+   text-align: left;
+   justify-content: left;
+    }
+
+    .box2{
+      margin: 30px;
+      width: 50%;
+   justify-content: left;
+    }
+    
+
+}
